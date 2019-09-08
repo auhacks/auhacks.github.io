@@ -4237,7 +4237,7 @@ a.ovelay-icon {
 }
  @media (max-width:640px) {
 .header-area .logo img {
-	max-width: 90%;
+	max-width: 30%;
 }
 .header-area.navbar-fixed-top .logo {
 	margin: 5px 0 0;
