@@ -1,13 +1,3 @@
-//  ====================================================================
-//	Theme Name: Jober - Multi-purpose Bootstrap Template
-//	Theme URI: http://themeforest.net/user/responsiveexperts
-//	Description: This javascript file is using as a settings file. This file includes the sub scripts for the javascripts used in this template.
-//	Version: 1.0
-//	Author: Responsive Experts
-//	Author URI: http://themeforest.net/user/responsiveexperts
-//	Tags:
-//  ====================================================================
-
 //	TABLE OF CONTENTS
 //	---------------------------
 //	 01. Map Settings
@@ -33,7 +23,7 @@
 			scrollwheel: false,
 
 			// The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(40.6700, -73.9400), // New York
+			center: new google.maps.LatLng(28.429888, 77.111685), // New York
 
 			// How you would like to style the map. 
 			// This is where you would paste any style found on Snazzy Maps.
@@ -155,7 +145,7 @@
 
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(40.6700, -73.9400),
+			position: new google.maps.LatLng(28.429888, 77.111685),
 			map: map,
 			title: 'Alamben!'
 		});
