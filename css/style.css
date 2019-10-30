@@ -36,6 +36,13 @@
 /* 01. Global Content Styles                                                                             */
 /* ===================================================================================================== */
 
+.centerCustom {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
 
 html, body {
 	font-family: 'Lato', serif;
